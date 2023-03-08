@@ -1,0 +1,79 @@
+html {
+  box-sizing: border-box;
+}
+
+/* ---- Selector Combinado: Hermano Siguiente ----*/
+
+.leng + p {
+  color: rgb(85, 56, 56);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ---- Selector Anidado ----*/
+
+h2.leng {
+  color: rgb(53, 53, 97);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ---- Selectores Múltiles ----*/
+
+.int,
+.int + p {
+  color: rgb(18, 99, 95);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.nav,
+.nav + p {
+  color: rgb(82, 46, 29);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.front,
+.front + p {
+  color: rgb(21, 71, 21);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-----------------------------------------*/
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30pt;
+  font-weight: 900;
+  text-decoration: underline;
+  text-align: center;
+  color: rgb(27, 12, 12);
+}
+
+h2 {
+  font-size: 25pt;
+  font-weight: 700;
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 5px double;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 13pt;
+  font-weight: 200;
+  text-align: justify;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+/*----------------------------------------------*/
+
+div {
+  background-color: rgba(16, 14, 20, 0.158);
+  border-radius: 5px;
+}
+
+div:hover {
+  background-color: rgba(16, 14, 20, 0.205);
+}
